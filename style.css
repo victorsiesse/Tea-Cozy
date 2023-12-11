@@ -1,4 +1,102 @@
 body {
     margin: 0;
     background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 49px;
+    padding: 10px;
+
+    border-bottom: 1px solid seashell;
+}
+
+nav .logo {
+    height: 50px;
+}
+
+nav a {
+    padding: 0 2px;
+    text-decoration: underline;
+    color: seashell;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url('./images/img-mission-background.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-text {
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+#products {
+    height: auto;
+    width: 1000px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.products-item img {
+    height: 200px;
+    width: 300px;
+}
+
+#location {
+    height: 500px;
+    width: 1200px;
+    background-image: url('./images/img-locations-background.jpg');
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.locations-item {
+    height: 300px;
+    width: 240px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid seashell;
 }
